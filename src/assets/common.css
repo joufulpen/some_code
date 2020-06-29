@@ -1,0 +1,178 @@
+/*/*/
+* #DCDFE6 */
+
+/* #DCDFE6 */
+[v-cloak] {
+  display: none !important;
+}
+
+/* #root {
+  visibility: hidden;
+} */
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+#vm .el-aside {
+  overflow: hidden;
+}
+
+#vm .el-card:nth-of-type(2) {
+  margin-top: 10px
+}
+
+#vm .el-card__body:first-of-type {
+  padding: 0px
+}
+
+#vm>.el-container>.el-aside>.el-card {
+  height: 100%
+}
+
+.el-header,
+.el-footer {
+  padding: 0;
+}
+
+.el-main,
+.el-container {
+  padding: 0;
+  height: 100%;
+}
+
+.el-tabs,
+.el-tabs__content,
+.el-tab-pane {
+  height: 100%;
+}
+
+.el-tabs--border-card>.el-tabs__content {
+  padding: 0;
+}
+
+/* 修正el-tabs__content覆盖header问题 */
+.el-tabs__header {
+  z-index: 1;
+  margin: 0;
+}
+
+/* 修正el-tabs的纵向填充容器问题 */
+.el-tabs__content {
+  box-sizing: border-box;
+  margin-top: -39px;
+  border-top-style: solid;
+  border-top-width: 39px;
+  border-top-color: rgba(0, 0, 0, 0);
+}
+
+.el-tabs--border-card {
+  border: none;
+}
+
+/* 表格单元格样式 */
+/* .el-table th>.cell {
+  min-width: 95px;
+} */
+.el-table td,
+.el-table th {
+  padding: 5px 0;
+}
+
+.el-form--inline .el-form-item {
+  margin-right: 0px;
+}
+
+.el-dialog__body {
+  padding-top: 0;
+}
+
+/* 阻止单元格自动换行 */
+.el-table .cell {
+  white-space: nowrap;
+}
+
+/* 外部容器 */
+#root>.el-container {
+  height: 100%;
+  /* border: 1px solid #DCDFE6; */
+  /* margin: 0;
+  width: 100%; */
+}
+
+.iframeOuterWrapper {
+  height: 100%;
+}
+
+/* 主题内容及底部内容容器 */
+#root>.el-container>.el-main {
+  border-top: 1px solid #DCDFE6;
+}
+
+.footerWrapper {
+  border-top: 1px solid #DCDFE6;
+}
+
+/* 侧边导航主体 */
+.el-aside {
+  color: #303133;
+  /*text-align: center;*/
+}
+
+/* 侧边导航标题 */
+.cool-query .el-aside>div {
+  height: 34px;
+  line-height: 34px;
+}
+
+.test-query .el-aside>div {
+  height: 34px;
+  line-height: 34px;
+}
+
+/* .el-aside>div:first-child {
+  height: 34px;
+  line-height: 34px; */
+/* text-align: center; */
+/* color: #333; */
+/* } */
+/* 自定义表单组件外框 */
+.cool-form {
+  padding-top: 20px;
+}
+
+/* 弹出框表单内容 */
+.el-dialog__body>.el-form {
+  border: 1px solid #DCDFE6;
+  /* padding-top: 20px; */
+  padding: 15px 15px 0px 15px;
+}
+
+/*编辑弹出窗*/
+#root .el-dialog .el-container {
+  border: 1px solid #DCDFE6;
+  height: 100%;
+}
+
+#root .el-dialog .el-container .el-form {
+  margin-top: 2%;
+}
+
+.el-dialog--center .el-dialog__body {
+  padding: 0px
+}
+
+.import-dialog .el-dialog .el-dialog__footer .el-button {
+  margin-left: 3px
+}
+
+.cool-form .el-input-number>.el-input>.el-input__inner {
+  text-align: left
+}
+
+/* 封装的上传控件按钮间样式 */
+/* .upload-demo .el-button {
+  margin-left: 0
+} */

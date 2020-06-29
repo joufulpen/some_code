@@ -1,0 +1,23 @@
+{
+  "name": "cool-elements",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --name cool-elements --dest public/dist src/index.js",
+    "cli": "npm install --global @vue/cli",
+    "inst": "npm install"
+  },
+  "dependencies": {
+    "dayjs": "^1.8.17",
+    "element-ui": "^2.13.2",
+    "vue": "^2.6.10"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.12.1",
+    "@vue/cli-service": "^3.12.1",
+    "axios": "^0.19.0",
+    "vue-cli-plugin-axios": "0.0.4",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
